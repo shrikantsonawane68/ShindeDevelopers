@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shinde Developers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Inside <head> section for CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<!-- Inside <body> section, before closing </body> tag for JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Shinde Developers</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Project Slider Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Our Projects</h2>
+        <div class="project-slider">
+            <div>
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Project One</h3>
+                <p>High-end residential complex.</p>
+            </div>
+            <div>
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>Modern commercial office building.</p>
+            </div>
+            <div>
+                <img src="images/project3.jpg" alt="Project 3">
+                <h3>Project Three</h3>
+                <p>Luxury home renovation.</p>
+            </div>
+            <div>
+                <img src="images/project4.jpg" alt="Project 4">
+                <h3>Project Four</h3>
+                <p>Construction of a shopping mall.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Our Projects</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <h3>Project One</h3>
+                        <p>High-end residential complex.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="images/project2.jpg" alt="Project 2">
+                        <h3>Project Two</h3>
+                        <p>Modern commercial office building.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>-->
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Building Tomorrow, Today</h2>
+            <p>Premium construction services with a focus on quality, precision, and safety.</p>
+            <a href="#contact" class="cta-button">Request a Quote</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Expertise</h2>
+            <div class="service-item">
+                <img src="images/residential.jpg" alt="Residential Construction">
+                <h3>Residential Construction</h3>
+                <p>Building dream homes with attention to every detail.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/commercial.jpg" alt="Commercial Construction">
+                <h3>Commercial Projects</h3>
+                <p>Transforming business spaces with efficiency and expertise.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/renovation.jpg" alt="Renovation Services">
+                <h3>Renovation & Remodeling</h3>
+                <p>Upgrading your property to meet modern standards and needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p>ABC Construction has over 20 years of experience in the construction industry, providing exceptional
+                quality and service in both residential and commercial sectors. Our commitment to safety, quality, and
+                customer satisfaction sets us apart as one of the top construction companies in the region.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form id="contact-form" action="https://formspree.io/f/mgvaebyy" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shinde Developers. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
